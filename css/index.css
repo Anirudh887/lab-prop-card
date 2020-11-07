@@ -40,7 +40,7 @@ body{
 }
 
 .card_img {
-    background-image: url('img/house.jpg');
+    /* background-image: url('img/house.jpg'); */
     transition: 0.2s all ease-out;
     background-size: cover;
     background-position: center;
