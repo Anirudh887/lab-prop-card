@@ -90,7 +90,7 @@ hr{
     align-items: flex-start;
 }
 
-.bathbed{
+.icons{
     width: 2em;
     margin-right: 1em;
 }
@@ -108,6 +108,12 @@ hr{
 
 .text_margin{
     margin: 1.2em;
+}
+
+.realtor{
+    display: flex;
+    align-items: flex-start;
+    justify-content:  space-between;
 }
 
 .realtor-flex{
@@ -132,5 +138,20 @@ hr{
     height: 100%;
     opacity: 0.3;
 }
+
+.info{
+    z-index: 99998889;
+    float: right;
+    background-color: #a6c7df;
+    padding: 0 1em;
+    border-radius: 12px;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+.more{
+    text-align: center;
+}
+
 
 
