@@ -14,13 +14,13 @@ body{
 
 .card_container{
     margin:auto;
-    max-width: 350px;
+    max-width: 370px;
 }
 
 .card {
     transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
     background-color: #fff;
-    width: 350px;
+    width: 400px;
     position: relative;
     border-radius: 12px;
     overflow: hidden;
@@ -87,11 +87,18 @@ hr{
 .rooms{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .bathbed{
     width: 2em;
+    margin-right: 1em;
+}
+
+.bed, .bath{
+    display: flex;
+    align-items: center;
+    justify-content:  flex-start;
 }
 
 .caps{
@@ -112,7 +119,7 @@ hr{
 
 .realtor_name{
     color:black;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .realtor-pic{
